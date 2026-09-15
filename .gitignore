@@ -1,0 +1,53 @@
+# Ignored directory for prompts and draft notes
+ignored stuff/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment variables & secrets
+.env
+.env.*
+!.env.example
+
+# Operating System files
+.DS_Store
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# IDE / Editor configuration
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Large data files / Raw data archives
+data/*.csv
+data/*.zip
+data/*.tar.gz
+data/*.parquet
+!data/.gitkeep
+
+# Output and checkpoints
+output/*.pkl
+output/*.joblib
+output/*.h5
+output/*.pth
+output/*.pt
+!output/.gitkeep
+!reports/.gitkeep
+!notebooks/.gitkeep
